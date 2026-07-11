@@ -56,6 +56,12 @@ body{
     color: white;
     padding: 12px 24px;
     border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background: #1742B8;
+    transform: translateY(-3px);
 }
 
 /* Hero Section */
@@ -351,4 +357,53 @@ body{
 
 .active .price-btn:hover{
     background:#1D4ED8;
+}
+
+/*FOOTER*/
+
+.footer{
+    background:#111827;
+    color:#ffffff;
+    padding:50px 80px 25px;
+}
+
+.footer-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.footer-logo h2{
+    font-size:28px;
+    color:#5B5BD6;
+}
+
+.social{
+    display:flex;
+    gap:20px;
+}
+
+.social a{
+    color:#ffffff;
+    text-decoration:none;
+    font-size:16px;
+    font-weight:500;
+    transition:0.3s;
+}
+
+.social a:hover{
+    color:#5B5BD6;
+}
+
+.footer hr{
+    border:none;
+    height:1px;
+    background:#374151;
+    margin:30px 0 20px;
+}
+
+.copyright{
+    text-align:center;
+    color:#d1d5db;
+    font-size:15px;
 }
