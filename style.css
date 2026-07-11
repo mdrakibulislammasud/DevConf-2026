@@ -244,3 +244,111 @@ body{
     transform:translateY(-3px);
     box-shadow:0 10px 20px rgba(91,91,214,.35);
 }
+
+/*Pricing Section*/
+.pricing{
+    padding:80px 8%;
+    background:#ffffff;
+    text-align:center;
+}
+
+.pricing h2{
+    font-size:42px;
+    color:#222;
+    margin-bottom:10px;
+}
+
+.pricing-text{
+    font-size:16px;
+    color:#666;
+    margin-bottom:50px;
+}
+
+.pricing-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+}
+
+.price-card{
+    width:320px;
+    background:#fff;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,.1);
+    text-align:left;
+    transition:.3s;
+}
+
+.price-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 12px 25px rgba(0,0,0,.15);
+}
+
+.price-card h4{
+    font-size:14px;
+    color:#666;
+    margin-bottom:15px;
+    text-transform:uppercase;
+}
+
+.price-card h1{
+    font-size:48px;
+    color:#222;
+    margin-bottom:10px;
+}
+
+.price-info{
+    color:#888;
+    margin-bottom:25px;
+    font-size:14px;
+}
+
+.price-card ul{
+    list-style:none;
+    margin-bottom:30px;
+}
+
+.price-card li{
+    margin:15px 0;
+    color:#444;
+    font-size:15px;
+}
+
+.price-btn{
+    display:block;
+    text-align:center;
+    text-decoration:none;
+    background:#1D4ED8;
+    color:white;
+    padding:12px;
+    border-radius:8px;
+    font-weight:600;
+}
+
+.price-btn:hover{
+    background:#1742b8;
+}
+
+/* Featured (Middle) Card */
+
+.active{
+    background:#0D1B2A;
+    color:white;
+    transform:scale(1.05);
+}
+
+.active h4,
+.active h1,
+.active p,
+.active li{
+    color:white;
+}
+
+.active .price-btn{
+    background:#2563EB;
+}
+
+.active .price-btn:hover{
+    background:#1D4ED8;
+}
